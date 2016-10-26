@@ -1,0 +1,21 @@
+<td><input type="hidden" value="<?php echo $row['product_id']; ?>" /></td>
+
+
+<!--<img src="images/<?php echo $row['product_img'];?>" />-->
+
+
+
+Name: <?php echo $row['name'];?>
+Price: <?php echo $row['cost'];?>
+
+
+
+<?php
+$sql= "SELECT * FROM product";
+$result= mysqli_query($conn,$sql);
+
+//$result = mysqli_query("SELECT * from product");
+while($row = mysqli_fetch_assoc($result)) 
+{
+?>
+
