@@ -1,2 +1,2 @@
 # E-Commerce_Website
-A Basic Website made on Core PHP
+A Basic e-commerce Website which runs on Core PHP.
